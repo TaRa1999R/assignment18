@@ -20,18 +20,165 @@ def ac () :
     window.textbox.setText ( number )
 
 
-def sum () : ...
-def sub () : ...
-def multi () : ...
-def divide () : ...
-def sqrt () : ...
-def percent () : ...
-def log () : ...
-def sin () : ...
-def cos () : ...
-def tan () : ...
-def cot () : ...
-def equal () : ...
+def sum () :
+    global number
+    global operation
+    global first
+    first = float ( number )
+    operation = "+"
+    number = ""
+    window.textbox.setText ( number )
+
+def sub () :
+    global number
+    global operation
+    global first
+    first = float ( number )
+    operation = "-"
+    number = ""
+    window.textbox.setText ( number )
+
+def multi () :
+    global number 
+    global operation
+    global first 
+    first = float ( number )
+    operation = "*"
+    number = ""
+    window.textbox.setText ( number )
+
+def divide () :
+    global number
+    global operation
+    global first
+    first = float ( number )
+    operation = "/"
+    number = ""
+    window.textbox.setText ( number )
+
+def sqrt () :
+    global number
+    global operation
+    global first
+    first = float ( number )
+    operation = "sqrt"
+    number = f"sqrt({first})"
+    window.textbox.setText ( number )
+
+def percent () :
+    global number
+    global operation
+    global first
+    first = float ( number )
+    operation = "%"
+    number = f"{first}%"
+    window.textbox.setText ( number )
+
+def log () :
+    global number
+    global operation
+    global first
+    first = float ( number )
+    operation = "log"
+    number = f"log({first})"
+    window.textbox.setText ( number )
+
+def sin () :
+    global number
+    global operation
+    global first
+    first = float ( number )
+    operation = "sin"
+    number = f"sin({first})"
+    window.textbox.setText ( number )
+
+def cos () :
+    global number
+    global operation
+    global first
+    first = float ( number )
+    operation = "cos"
+    number = f"cos({first})"
+    window.textbox.setText ( number )
+
+def tan () : 
+    global number
+    global operation
+    global first
+    first = float ( number )
+    operation = "tan"
+    number = f"tan({first})"
+    window.textbox.setText ( number )
+
+def cot () :
+    global number
+    global operation
+    global first
+    first = float ( number )
+    operation = "cot"
+    number = f"cot({first})"
+    window.textbox.setText ( number )
+
+def equal () :
+    global number
+    global operation
+    global first
+    
+    if operation == "+" or operation == "-" or operation == "*" or operation == "/" :
+        second = float ( number )
+        if operation == "+" :
+            result = first + second
+        
+        elif operation == "-" :
+            result = first - second
+
+        elif operation == "*" :
+            result = first * second
+
+        elif operation == "/" :
+            if second == 0 :
+                result = "        Error!!"
+            
+            else :
+                result = first / second
+        
+    else :
+        if operation == "sqrt" :
+            if first < 0 :
+                result = "        Error!!"
+
+            else :
+                result = math.sqrt ( first)
+
+        elif operation == "%" :
+            result = first / 100
+
+        elif operation == "log" :
+            result = math.log10 ( first )
+
+        elif operation == "sin" :
+            rad = first * ( math.pi / 180 )
+            result = math.sin ( rad )
+
+        elif operation == "cos" :
+            rad = first * ( math.pi / 180 )
+            result = math.cos ( rad )
+
+        elif operation == "tan" :
+            rad = first * ( math.pi / 180 )
+            result = math.tan ( rad )
+
+        elif operation == "cot" :
+            rad = first * ( math.pi / 180 )
+            result = 1 / math.tan ( rad )
+
+    
+    window.textbox.setText ( str ( result ))
+    number = ""
+    first = ""
+    operation = ""
+
+
 
 app = QApplication ([])
 loader = QUiLoader ()
@@ -69,4 +216,3 @@ window.ac.clicked.connect ( ac )
 
 window.show ()
 app.exec ()
-
