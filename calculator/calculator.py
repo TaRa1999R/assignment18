@@ -172,13 +172,10 @@ def equal () :
             rad = first * ( math.pi / 180 )
             result = 1 / math.tan ( rad )
 
-    
     window.textbox.setText ( str ( result ))
     number = ""
     first = ""
     operation = ""
-
-
 
 app = QApplication ([])
 loader = QUiLoader ()
@@ -210,9 +207,7 @@ window.cos.clicked.connect ( cos )
 window.tan.clicked.connect ( tan )
 window.cot.clicked.connect ( cot )
 window.equal.clicked.connect ( equal )
-
 window.ac.clicked.connect ( ac )
-
 
 window.show ()
 app.exec ()
