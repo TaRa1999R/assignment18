@@ -33,7 +33,11 @@
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: rgb(81, 81, 81);
-color: rgb(255, 255, 255);</string>
+color: rgb(255, 255, 255);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
      </widget>
     </item>
@@ -53,7 +57,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(10, 222, 255);</string>
+       <string notr="true">background-color: rgb(10, 222, 255);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>AC</string>
@@ -75,7 +83,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(10, 222, 255);</string>
+       <string notr="true">background-color: rgb(10, 222, 255);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>+/-</string>
@@ -97,7 +109,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(10, 222, 255);</string>
+       <string notr="true">background-color: rgb(10, 222, 255);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>%</string>
@@ -119,7 +135,10 @@ color: rgb(255, 255, 255);</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: rgb(252, 255, 83);
-</string>
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>√x</string>
@@ -140,7 +159,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 166, 76);</string>
+       <string notr="true">background-color: rgb(255, 166, 76);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>log</string>
@@ -161,7 +184,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(41, 255, 102);</string>
+       <string notr="true">background-color: rgb(41, 255, 102);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>7</string>
@@ -182,7 +209,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(41, 255, 102);</string>
+       <string notr="true">background-color: rgb(41, 255, 102);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>8</string>
@@ -203,7 +234,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(41, 255, 102);</string>
+       <string notr="true">background-color: rgb(41, 255, 102);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>9</string>
@@ -224,7 +259,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(252, 255, 83);</string>
+       <string notr="true">background-color: rgb(252, 255, 83);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>÷</string>
@@ -245,7 +284,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 166, 76);</string>
+       <string notr="true">background-color: rgb(255, 166, 76);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>cot</string>
@@ -266,7 +309,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(41, 255, 102);</string>
+       <string notr="true">background-color: rgb(41, 255, 102);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>4</string>
@@ -287,7 +334,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(41, 255, 102);</string>
+       <string notr="true">background-color: rgb(41, 255, 102);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>5</string>
@@ -308,7 +359,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(41, 255, 102);</string>
+       <string notr="true">background-color: rgb(41, 255, 102);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>6</string>
@@ -329,7 +384,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(252, 255, 83);</string>
+       <string notr="true">background-color: rgb(252, 255, 83);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>x</string>
@@ -350,7 +409,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 166, 76);</string>
+       <string notr="true">background-color: rgb(255, 166, 76);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>tan</string>
@@ -371,7 +434,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(41, 255, 102);</string>
+       <string notr="true">background-color: rgb(41, 255, 102);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>1</string>
@@ -392,7 +459,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(41, 255, 102);</string>
+       <string notr="true">background-color: rgb(41, 255, 102);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>2</string>
@@ -413,7 +484,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(41, 255, 102);</string>
+       <string notr="true">background-color: rgb(41, 255, 102);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>3</string>
@@ -434,7 +509,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(252, 255, 83);</string>
+       <string notr="true">background-color: rgb(252, 255, 83);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>-</string>
@@ -455,7 +534,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 166, 76);</string>
+       <string notr="true">background-color: rgb(255, 166, 76);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>cos</string>
@@ -476,7 +559,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(10, 222, 255);</string>
+       <string notr="true">background-color: rgb(10, 222, 255);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>.</string>
@@ -497,7 +584,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(41, 255, 102);</string>
+       <string notr="true">background-color: rgb(41, 255, 102);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>0</string>
@@ -518,7 +609,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(252, 255, 83);</string>
+       <string notr="true">background-color: rgb(252, 255, 83);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>=</string>
@@ -539,7 +634,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(252, 255, 83);</string>
+       <string notr="true">background-color: rgb(252, 255, 83);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>+</string>
@@ -560,7 +659,11 @@ color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 166, 76);</string>
+       <string notr="true">background-color: rgb(255, 166, 76);
+border-top-right-radius:20px;
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;</string>
       </property>
       <property name="text">
        <string>sin</string>
