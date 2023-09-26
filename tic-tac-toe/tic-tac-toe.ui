@@ -6,37 +6,19 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>398</width>
-    <height>416</height>
+    <width>960</width>
+    <height>612</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>TicTacToe</string>
+   <string>Tic-Tac-Toe</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(32, 175, 66);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
-    <item row="0" column="0">
-     <widget class="QRadioButton" name="computer">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>9</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>player vs. computer</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="0">
+    <item row="2" column="0">
      <widget class="QRadioButton" name="player">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
@@ -46,7 +28,7 @@
       </property>
       <property name="font">
        <font>
-        <pointsize>10</pointsize>
+        <pointsize>13</pointsize>
        </font>
       </property>
       <property name="text">
@@ -54,183 +36,8 @@
       </property>
      </widget>
     </item>
-    <item row="2" column="0">
-     <widget class="QPushButton" name="topLeft">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>10</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(80, 239, 0);
-border-top-left-radius:10px;
-border-top-right-radius:10px;
-border-bottom-left-radius:10px;
-border-bottom-right-radius:10px;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="1">
-     <widget class="QPushButton" name="top">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>10</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(80, 239, 0);
-border-top-left-radius:10px;
-border-top-right-radius:10px;
-border-bottom-left-radius:10px;
-border-bottom-right-radius:10px;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item row="3" column="0">
+    <item row="6" column="0">
      <widget class="QPushButton" name="left">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>15</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(80, 239, 0);
-border-top-left-radius:10px;
-border-top-right-radius:10px;
-border-bottom-left-radius:10px;
-border-bottom-right-radius:10px;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item row="3" column="1">
-     <widget class="QPushButton" name="mid">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(80, 239, 0);
-border-top-left-radius:10px;
-border-top-right-radius:10px;
-border-bottom-left-radius:10px;
-border-bottom-right-radius:10px;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item row="3" column="2">
-     <widget class="QPushButton" name="right">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>25</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(80, 239, 0);
-border-top-left-radius:10px;
-border-top-right-radius:10px;
-border-bottom-left-radius:10px;
-border-bottom-right-radius:10px;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="0">
-     <widget class="QPushButton" name="bottomLeft">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>30</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(80, 239, 0);
-border-top-left-radius:10px;
-border-top-right-radius:10px;
-border-bottom-left-radius:10px;
-border-bottom-right-radius:10px;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="1">
-     <widget class="QPushButton" name="bottom">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>35</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(80, 239, 0);
-border-top-left-radius:10px;
-border-top-right-radius:10px;
-border-bottom-left-radius:10px;
-border-bottom-right-radius:10px;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="2">
-     <widget class="QPushButton" name="bottomRight">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
         <horstretch>0</horstretch>
@@ -243,43 +50,36 @@ border-bottom-right-radius:10px;</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(80, 239, 0);
-border-top-left-radius:10px;
-border-top-right-radius:10px;
-border-bottom-left-radius:10px;
-border-bottom-right-radius:10px;</string>
+       <string notr="true">background-color: rgb(170, 255, 127)</string>
       </property>
       <property name="text">
        <string/>
       </property>
      </widget>
     </item>
-    <item row="5" column="0">
-     <widget class="QLineEdit" name="Xscore">
+    <item row="5" column="1">
+     <widget class="QPushButton" name="top">
       <property name="sizePolicy">
-       <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
         <horstretch>0</horstretch>
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
       <property name="font">
        <font>
-        <pointsize>20</pointsize>
+        <pointsize>40</pointsize>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 202, 238);
-color: rgb(255, 26, 49);
-border-top-left-radius:10px;
-border-top-right-radius:10px;
-border-bottom-left-radius:10px;
-border-bottom-right-radius:10px;
-min-height:30px;</string>
+       <string notr="true">background-color: rgb(170, 255, 127)</string>
+      </property>
+      <property name="text">
+       <string/>
       </property>
      </widget>
     </item>
-    <item row="5" column="1">
-     <widget class="QLineEdit" name="Tiescore">
+    <item row="1" column="0">
+     <widget class="QRadioButton" name="computer">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
         <horstretch>0</horstretch>
@@ -288,45 +88,15 @@ min-height:30px;</string>
       </property>
       <property name="font">
        <font>
-        <pointsize>20</pointsize>
+        <pointsize>13</pointsize>
        </font>
       </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(185, 185, 185);
-color: rgb(13, 13, 13);
-border-top-left-radius:10px;
-border-top-right-radius:10px;
-border-bottom-left-radius:10px;
-border-bottom-right-radius:10px;
-min-height:30px;</string>
+      <property name="text">
+       <string>player vs. computer</string>
       </property>
      </widget>
     </item>
     <item row="5" column="2">
-     <widget class="QLineEdit" name="Oscore">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(33, 218, 255);
-color: rgb(65, 84, 255);
-border-top-left-radius:10px;
-border-top-right-radius:10px;
-border-bottom-left-radius:10px;
-border-bottom-right-radius:10px;
-min-height:30px;</string>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="2">
      <widget class="QPushButton" name="topRight">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
@@ -336,22 +106,39 @@ min-height:30px;</string>
       </property>
       <property name="font">
        <font>
-        <pointsize>10</pointsize>
+        <pointsize>40</pointsize>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(80, 239, 0);
-border-top-left-radius:10px;
-border-top-right-radius:10px;
-border-bottom-left-radius:10px;
-border-bottom-right-radius:10px;</string>
+       <string notr="true">background-color: rgb(170, 255, 127)</string>
       </property>
       <property name="text">
        <string/>
       </property>
      </widget>
     </item>
-    <item row="0" column="1" rowspan="2">
+    <item row="6" column="1">
+     <widget class="QPushButton" name="mid">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>40</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 255, 127)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" rowspan="2">
      <widget class="QPushButton" name="about">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
@@ -377,7 +164,164 @@ border-bottom-right-radius:15px;</string>
       </property>
      </widget>
     </item>
-    <item row="0" column="2" rowspan="2">
+    <item row="6" column="2">
+     <widget class="QPushButton" name="right">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>40</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 255, 127)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="Tiescore">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(185, 185, 185);
+color: rgb(13, 13, 13);
+border-top-left-radius:10px;
+border-top-right-radius:10px;
+border-bottom-left-radius:10px;
+border-bottom-right-radius:10px;
+min-height:30px;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="2">
+     <widget class="QLineEdit" name="Oscore">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(33, 218, 255);
+color: rgb(65, 84, 255);
+border-top-left-radius:10px;
+border-top-right-radius:10px;
+border-bottom-left-radius:10px;
+border-bottom-right-radius:10px;
+min-height:30px;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="turn">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(80, 239, 0);
+border-top-left-radius:10px;
+border-top-right-radius:10px;
+border-bottom-left-radius:10px;
+border-bottom-right-radius:10px;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="2">
+     <widget class="QPushButton" name="bottomRight">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>40</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 255, 127)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QPushButton" name="bottomLeft">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>40</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 255, 127)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLineEdit" name="Xscore">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 202, 238);
+color: rgb(255, 26, 49);
+border-top-left-radius:10px;
+border-top-right-radius:10px;
+border-bottom-left-radius:10px;
+border-bottom-right-radius:10px;
+min-height:30px;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2" rowspan="2">
      <widget class="QPushButton" name="restart">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
@@ -403,6 +347,48 @@ border-bottom-right-radius:15px;
       </property>
      </widget>
     </item>
+    <item row="7" column="1">
+     <widget class="QPushButton" name="bottom">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>40</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 255, 127)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QPushButton" name="topLeft">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>40</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 255, 127)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
    </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -410,7 +396,7 @@ border-bottom-right-radius:15px;
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>398</width>
+     <width>960</width>
      <height>22</height>
     </rect>
    </property>
